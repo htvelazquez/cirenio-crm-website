@@ -71,52 +71,64 @@
                   <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Con un simple clic guardarás toda la información del contacto deseado en Cirenio CRM compartiendo búsquedas y contactos con el resto de tu equipo.</p>
                   <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#contact-us" class="btn btn-primary px-4 py-3">Solicitá una prueba</a></p>
               </div>
-              <div class="one-half align-self-sm-center">
-                <img src="views/images/home-landing.png" class="img-fluid img mx-auto d-block" alt="">
+              <div class="one-half align-self-md-end align-self-sm-center">
+                  <img src="/views/images/home-landing.png" class="img-fluid img mx-auto d-block" alt="Cirenio Chrome Extension">
               </div>
           </div>
         </div>
     </div>
 
-    <section id="flow" class="ftco-section services-section">
+
+    <section id="flow" class="ftco-section">
         <div class="container">
-            <!-- div class="row justify-content-center mb-3 pb-3">
+            <div class="row justify-content-center mb-3 pb-3">
                 <div class="col-md-7 text-center heading-section ftco-animate">
-                    <span class="subheading">Fácil de integrar</span>
-                    <h2 class="mb-4">Beneficios</h2>
+                    <!-- span class="subheading">Services</span -->
+                    <h2 class="mb-4">Cómo funciona</h2>
                 </div>
-            </div-->
+            </div>
             <div class="row">
-                <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-                    <div class="media block-6 services d-block text-center">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-globe"></span></div>
-                        </div>
-                        <div class="media-body p-2 mt-3">
-                            <h3 class="heading">Guardar perfiles de LinkeIn</h3>
-                            <p>Con tan solo un clic nuestra extensión de Chrome te ayudara a guardar toda la información de los perfiles de LinkedIn en Cirenio CRM dashboard.</p>
-                        </div>
+                <div class="col-md-12 nav-link-wrap mb-5 pb-md-5 pb-sm-1 ftco-animate">
+                    <div class="nav ftco-animate nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-nextgen-tab" data-toggle="pill" href="#v-pills-nextgen" role="tab" aria-controls="v-pills-nextgen" aria-selected="true">Guardar</a>
+                        <a class="nav-link" id="v-pills-performance-tab" data-toggle="pill" href="#v-pills-performance" role="tab" aria-controls="v-pills-performance" aria-selected="false">Segmentar</a>
+                        <a class="nav-link" id="v-pills-effect-tab" data-toggle="pill" href="#v-pills-effect" role="tab" aria-controls="v-pills-effect" aria-selected="false">Exportar</a>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-                    <div class="media block-6 services d-block text-center">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-time"></span></div>
+                <div class="col-md-12 align-items-center ftco-animate">
+                    <div class="tab-content ftco-animate" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-nextgen" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
+                            <div class="d-md-flex">
+                                <div class="one-forth align-self-center">
+                                    <img src="/views/images/descargar.png" class="img-fluid" alt="Descargar contactos desde LinkedIn">
+                                </div>
+                                <div class="one-half ml-md-5 align-self-center">
+                                    <h2 class="mb-4">Guardar perfiles de LinkeIn</h2>
+                                    <p>Con tan solo un clic nuestra extensión de Chrome te ayudará a guardar toda la información de los perfiles de LinkedIn en Cirenio CRM.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="media-body p-2 mt-3">
-                            <h3 class="heading">Agrupa contactos</h3>
-                            <p>De forma sencilla en el momento de guardar en nuestra extensión o desde el dashboard Cirenio CRM utilizando labels.</p>
+                        <div class="tab-pane fade" id="v-pills-performance" role="tabpanel" aria-labelledby="v-pills-performance-tab">
+                            <div class="d-md-flex">
+                                <div class="one-forth order-last align-self-center">
+                                    <img src="/views/images/segmentar.png" class="img-fluid" alt="Segmentar contactos con labels">
+                                </div>
+                                <div class="one-half order-first mr-md-5 align-self-center">
+                                    <h2 class="mb-4">Segmentar contactos</h2>
+                                    <p>Crea labels personalizados para segmentar, agrupar o filtrar perfiles según tus necesidades.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-                    <div class="media block-6 services d-block text-center">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-shield"></span></div>
-                        </div>
-                        <div class="media-body p-2 mt-3">
-                            <h3 class="heading">Descargar</h3>
-                            <p>Exporta a CSV tus listas de contactos agrupadas por labels o simplemente filtra una nueva lista y exporta a CSV.</p>
+                        <div class="tab-pane fade" id="v-pills-effect" role="tabpanel" aria-labelledby="v-pills-effect-tab">
+                            <div class="d-md-flex">
+                                <div class="one-forth align-self-center">
+                                    <img src="/views/images/exportar.png" class="img-fluid" alt="Exportar contactos en formato CSV">
+                                </div>
+                                <div class="one-half ml-md-5 align-self-center">
+                                    <h2 class="mb-4">Exportar</h2>
+                                    <p>Descarga tus listas de contactos segmentados por labels, filtros o simplemente toda tu base de datos para importarla en tu CRM.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -139,7 +151,7 @@
                         </div>
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">Lead generation</h3>
-                            <p>Obtené nuevos contactos de posibles clientes, de forma más rápida y simple. Genera diferentes lista de contactos con distintos propósitos, agrupándolos por Tags al momento de obtenerlos o en el Dashboard.</p>
+                            <p>Obtén nuevos contactos de posibles clientes, de forma más rápida y simple. Genera diferentes lista de contactos con distintos propósitos, agrupándolos por labels al momento de obtenerlos o en el Dashboard.</p>
                         </div>
                     </div>
                 </div>
@@ -150,7 +162,7 @@
                         </div>
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">Recruting</h3>
-                            <p>Obtené toda la información de los perfiles de posibles candidatos de forma rápida y simple, genera agrupaciones por Tags para tus distintas búsquedas y compartilas con el resto del equipo evitando duplicados.</p>
+                            <p>Obtén toda la información de los perfiles de posibles candidatos de forma rápida y simple, genera agrupaciones por labels para tus distintas búsquedas y compartilas con el resto del equipo evitando duplicados.</p>
                         </div>
                     </div>
                 </div>
@@ -162,7 +174,7 @@
         <div class="container">
             <div class="row justify-content-center mb-3 pb-3">
                 <div class="col-md-7 text-center heading-section ftco-animate">
-                    <span class="subheading">Fácil de integrar</span>
+                    <!-- span class="subheading">Fácil de integrar</span-->
                     <h2 class="mb-4">Beneficios</h2>
                 </div>
             </div>

@@ -8148,7 +8148,7 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
 .slider-text .img{
     z-index:99;
     opacity: 0.95;
-    width: 50%;
+    width: 85%;
 }
 .slider-text .breadcrumbs{
     text-transform:uppercase;

@@ -67,8 +67,8 @@
         <div class="container-fluid">
           <div class="slider-text d-md-flex align-items-center" data-scrollax-parent="true">
               <div class="one-forth pr-md-4 ftco-animate align-self-md-center" data-scrollax=" properties: { translateY: '70%' }">
-                  <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Automatiza tus búsquedas en LinkedIn</h1>
-                  <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Con un simple clic guardarás toda la información del contacto deseado en Cirenio CRM compartiendo búsquedas y contactos con el resto de tu equipo.</p>
+                  <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Guarda<br/>Segmenta<br/>Exporta</h1>
+                  <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Contacta más perfiles en menos tiempo..</p>
                   <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#contact-us" class="btn btn-primary px-4 py-3">Solicitá una prueba</a></p>
               </div>
               <div class="one-half align-self-md-end align-self-sm-center">
@@ -84,7 +84,7 @@
             <div class="row justify-content-center mb-3 pb-3">
                 <div class="col-md-7 text-center heading-section ftco-animate">
                     <!-- span class="subheading">Services</span -->
-                    <h2 class="mb-4">Cómo funciona</h2>
+                    <h2 class="mb-4">¿Como funciona?</h2>
                 </div>
             </div>
             <div class="row">
@@ -99,34 +99,35 @@
                     <div class="tab-content ftco-animate" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-nextgen" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
                             <div class="d-md-flex">
-                                <div class="one-forth align-self-center">
+                                <div class="col-md-4 align-self-center">
                                     <img src="/views/images/descargar.png" class="img-fluid" alt="Descargar contactos desde LinkedIn">
                                 </div>
-                                <div class="one-half ml-md-5 align-self-center">
-                                    <h2 class="mb-4">Guardar perfiles de LinkeIn</h2>
-                                    <p>Con tan solo un clic nuestra extensión de Chrome te ayudará a guardar toda la información de los perfiles de LinkedIn en Cirenio CRM.</p>
+                                <div class="col-md-8 ml-md-5 align-self-center">
+                                    <h2 class="mb-4">Ahorra tiempo</h2>
+                                    <p>Con nuestra extensión de Chrome podrás guardar toda la información del perfil que estés visitando desde cualquiera de las soluciones de LinkedIn (Sales Navigator, Recruiter, Classic).</p>
+                                    <p>Es simple, rápido e intuitivo.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-performance" role="tabpanel" aria-labelledby="v-pills-performance-tab">
                             <div class="d-md-flex">
-                                <div class="one-forth order-last align-self-center">
+                                <div class="col-md-4 order-last align-self-center">
                                     <img src="/views/images/segmentar.png" class="img-fluid" alt="Segmentar contactos con labels">
                                 </div>
-                                <div class="one-half order-first mr-md-5 align-self-center">
-                                    <h2 class="mb-4">Segmentar contactos</h2>
-                                    <p>Crea labels personalizados para segmentar, agrupar o filtrar perfiles según tus necesidades.</p>
+                                <div class="col-md-8 order-first mr-md-5 align-self-center">
+                                    <h2 class="mb-4">Segmenta tus contactos de forma personalizada</h2>
+                                    <p>En Cirenio CRM podrás agrupar tus contactos, al crear listas personalizadas utilizando combinaciones de filtros como: Skills, Compañías, Idiomas, Estudios, Instituciones, Etiquetas Personalizadas y muchos más.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-effect" role="tabpanel" aria-labelledby="v-pills-effect-tab">
                             <div class="d-md-flex">
-                                <div class="one-forth align-self-center">
+                                <div class="col-md-4 align-self-center">
                                     <img src="/views/images/exportar.png" class="img-fluid" alt="Exportar contactos en formato CSV">
                                 </div>
-                                <div class="one-half ml-md-5 align-self-center">
-                                    <h2 class="mb-4">Exportar</h2>
-                                    <p>Descarga tus listas de contactos segmentados por labels, filtros o simplemente toda tu base de datos para importarla en tu CRM.</p>
+                                <div class="col-md-8 ml-md-5 align-self-center">
+                                    <h2 class="mb-4">Contactos portables</h2>
+                                    <p>Cirenio CRM te permitirá exportar en formato CSV tus contactos filtrados,  listas personalizadas o simplemente toda tu base de contactos. Para que puedas importar tus contactos en cualquier CRM o compartirlos con tus colegas.</p>
                                 </div>
                             </div>
                         </div>
@@ -147,22 +148,23 @@
                 <div class="col-md-6 d-flex align-self-stretch ftco-animate">
                     <div class="media block-6 services d-block text-center">
                         <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-money"></span></div>
+                            <div class="icon"><span class="flaticon-target"></span></div>
                         </div>
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">Lead generation</h3>
-                            <p>Obtén nuevos contactos de posibles clientes, de forma más rápida y simple. Genera diferentes lista de contactos con distintos propósitos, agrupándolos por labels al momento de obtenerlos o en el Dashboard.</p>
+                            <p>Obtén nuevos contactos de posibles clientes, de forma más rápida y simple. Genera diferentes lista de contactos con distintos propósitos, agrupándolos con etiquetas al momento de obtenerlos o en tu base de contactos.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 d-flex align-self-stretch ftco-animate">
                     <div class="media block-6 services d-block text-center">
                         <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-documents"></span></div>
+                            <div class="icon"><span class="flaticon-potential"></span></div>
                         </div>
                         <div class="media-body p-2 mt-3">
-                            <h3 class="heading">Recruting</h3>
-                            <p>Obtén toda la información de los perfiles de posibles candidatos de forma rápida y simple, genera agrupaciones por labels para tus distintas búsquedas y compartilas con el resto del equipo evitando duplicados.</p>
+                            <h3 class="heading">Recruiting</h3>
+                            <p>Recopila toda la información de tus candidatos de forma simple. Genera listas por búsquedas o perfiles y compartirlas con el resto del equipo evitando duplicados.</p>
+                            <p>Evita las limitaciones de visitas, almacenando tus candidatos en nuestra plataforma.</p>
                         </div>
                     </div>
                 </div>
@@ -182,7 +184,7 @@
                 <div class="col-md-4 d-flex align-self-stretch ftco-animate">
                     <div class="media block-6 services d-block text-center">
                         <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-globe"></span></div>
+                            <div class="icon"><span class="flaticon-brain"></span></div>
                         </div>
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">Simple</h3>
@@ -193,18 +195,18 @@
                 <div class="col-md-4 d-flex align-self-stretch ftco-animate">
                     <div class="media block-6 services d-block text-center">
                         <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-time"></span></div>
+                            <div class="icon"><span class="flaticon-way"></span></div>
                         </div>
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">Plug and Play</h3>
-                            <p>Simplemente descarga la extensión. Registrate con tu cuenta Google. ¡Y comenzá a utilizarla!</p>
+                            <p>Simplemente descarga la extensión. Registrate con tu cuenta Google. ¡Y comienza a utilizarla!</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex align-self-stretch ftco-animate">
                     <div class="media block-6 services d-block text-center">
                         <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-shield"></span></div>
+                            <div class="icon"><span class="flaticon-free"></span></div>
                         </div>
                         <div class="media-body p-2 mt-3">
                             <h3 class="heading">Free trial</h3>

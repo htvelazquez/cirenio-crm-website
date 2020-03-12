@@ -9965,3 +9965,14 @@ nav#specialNav a span {
     background: #3a4348;
     padding: 1em 0 0;
 }
+
+.ftco-section .nav-pills .nav-link.active, .ftco-section .nav-pills .nav-link:hover {
+    background: #55cbc8 !important;
+    color: #FFFFFF !important;
+
+}
+
+.ftco-section .nav-pills .nav-link {
+    color: #55cbc8 !important;
+    border-color: #55cbc8 !important;
+}

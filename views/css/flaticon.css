@@ -30,12 +30,8 @@
   font-style: normal;
 }
 
-.flaticon-globe:before { content: "\f100"; }
-.flaticon-time:before { content: "\f101"; }
-.flaticon-shield:before { content: "\f102"; }
-.flaticon-money:before { content: "\f103"; }
-.flaticon-target:before { content: "\f104"; }
-.flaticon-task:before { content: "\f105"; }
-.flaticon-money-1:before { content: "\f106"; }
-.flaticon-documents:before { content: "\f107"; }
-.flaticon-payment:before { content: "\f108"; }
+.flaticon-brain:before { content: "\f100"; }
+.flaticon-way:before { content: "\f101"; }
+.flaticon-free:before { content: "\f102"; }
+.flaticon-target:before { content: "\f103"; }
+.flaticon-potential:before { content: "\f104"; }
